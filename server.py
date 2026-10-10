@@ -707,6 +707,7 @@ def research():
             timeframe="today 12-m",
             include_related=False,
             include_geo=True,
+            engine="http",
             max_retries=3,
             retry_wait=5,
             cache="disk",
